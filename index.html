@@ -1,0 +1,175 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Translation Tool - Translate Text Instantly</title>
+
+    <link rel="icon" href="https://placehold.co/32x32/000000/FFFFFF?text=AI" type="image/x-icon">
+
+    <meta name="description" content="AI Translation Tool: Translate text instantly between over 100 languages including English, French, Spanish, German, Hindi, Odia, Telugu, Tamil, Gujarati, Sanskrit, and more. Fast, accurate, and free online translator.">
+    <meta name="keywords" content="AI translation, online translator, free translation, language tool, English to Hindi, Spanish translator, German translator, multi-language translation, automatic language detection, text translation">
+    <meta name="author" content="Your Name/Company Name">
+    <link rel="canonical" href="https://www.yourdomain.com/"> <meta property="og:title" content="AI Translation Tool - Translate Text Instantly">
+    <meta property="og:description" content="AI Translation Tool: Translate text instantly between over 100 languages. Fast, accurate, and free online translator.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.yourdomain.com/"> <meta property="og:image" content="https://placehold.co/1200x630/000000/FFFFFF?text=AI+Translation+Tool"> <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="bg-gradient-to-br from-blue-50 to-indigo-100 min-h-screen flex flex-col text-gray-800">
+
+    <header class="bg-white shadow-md py-4 px-6 md:px-10 flex items-center justify-between rounded-b-xl">
+        <div class="flex items-center">
+            <img src="https://placehold.co/40x40/4F46E5/FFFFFF?text=AI" alt="AI Translation Tool Logo" class="h-10 w-10 rounded-full mr-3">
+            <h1 class="text-2xl md:text-3xl font-bold text-indigo-700">AI Translation Tool</h1>
+        </div>
+        </header>
+
+    <main class="flex-grow container mx-auto p-4 md:p-8 flex flex-col items-center justify-center">
+        <section class="w-full max-w-4xl bg-white p-6 md:p-8 rounded-2xl shadow-xl border border-gray-200">
+            <h2 class="text-2xl font-semibold mb-6 text-center text-indigo-600">Translate Text</h2>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div>
+                    <label for="sourceLanguage" class="block text-sm font-medium text-gray-700 mb-2">From Language:</label>
+                    <select id="sourceLanguage" class="mt-1 block w-full pl-3 pr-10 py-2 text-base border-gray-300 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm rounded-md shadow-sm bg-white">
+                        <option value="auto">Detect Language</option>
+                        <option value="en">English</option>
+                        <option value="fr">French</option>
+                        <option value="es">Spanish</option>
+                        <option value="de">German</option>
+                        <option value="hi">Hindi</option>
+                        <option value="or">Odia</option>
+                        <option value="te">Telugu</option>
+                        <option value="ta">Tamil</option>
+                        <option value="gu">Gujarati</option>
+                        <option value="sa">Sanskrit</option>
+                        <option value="ar">Arabic</option>
+                        <option value="bn">Bengali</option>
+                        <option value="zh-CN">Chinese (Simplified)</option>
+                        <option value="nl">Dutch</option>
+                        <option value="fil">Filipino</option>
+                        <option value="el">Greek</option>
+                        <option value="he">Hebrew</option>
+                        <option value="id">Indonesian</option>
+                        <option value="it">Italian</option>
+                        <option value="ja">Japanese</option>
+                        <option value="ko">Korean</option>
+                        <option value="la">Latin</option>
+                        <option value="ms">Malay</option>
+                        <option value="mr">Marathi</option>
+                        <option value="ne">Nepali</option>
+                        <option value="no">Norwegian</option>
+                        <option value="fa">Persian</option>
+                        <option value="pl">Polish</option>
+                        <option value="pt">Portuguese</option>
+                        <option value="pa">Punjabi</option>
+                        <option value="ro">Romanian</option>
+                        <option value="ru">Russian</option>
+                        <option value="sr">Serbian</option>
+                        <option value="si">Sinhala</option>
+                        <option value="so">Somali</option>
+                        <option value="sw">Swahili</option>
+                        <option value="th">Thai</option>
+                        <option value="tr">Turkish</option>
+                        <option value="uk">Ukrainian</option>
+                        <option value="ur">Urdu</option>
+                        <option value="vi">Vietnamese</option>
+                        </select>
+                </div>
+
+                <div>
+                    <label for="targetLanguage" class="block text-sm font-medium text-gray-700 mb-2">To Language:</label>
+                    <select id="targetLanguage" class="mt-1 block w-full pl-3 pr-10 py-2 text-base border-gray-300 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm rounded-md shadow-sm bg-white">
+                        <option value="en">English</option>
+                        <option value="fr">French</option>
+                        <option value="es">Spanish</option>
+                        <option value="de">German</option>
+                        <option value="hi">Hindi</option>
+                        <option value="or">Odia</option>
+                        <option value="te">Telugu</option>
+                        <option value="ta">Tamil</option>
+                        <option value="gu">Gujarati</option>
+                        <option value="sa">Sanskrit</option>
+                        <option value="ar">Arabic</option>
+                        <option value="bn">Bengali</option>
+                        <option value="zh-CN">Chinese (Simplified)</option>
+                        <option value="nl">Dutch</option>
+                        <option value="fil">Filipino</option>
+                        <option value="el">Greek</option>
+                        <option value="he">Hebrew</option>
+                        <option value="id">Indonesian</option>
+                        <option value="it">Italian</option>
+                        <option value="ja">Japanese</option>
+                        <option value="ko">Korean</option>
+                        <option value="la">Latin</option>
+                        <option value="ms">Malay</option>
+                        <option value="mr">Marathi</option>
+                        <option value="ne">Nepali</option>
+                        <option value="no">Norwegian</option>
+                        <option value="fa">Persian</option>
+                        <option value="pl">Polish</option>
+                        <option value="pt">Portuguese</option>
+                        <option value="pa">Punjabi</option>
+                        <option value="ro">Romanian</option>
+                        <option value="ru">Russian</option>
+                        <option value="sr">Serbian</option>
+                        <option value="si">Sinhala</option>
+                        <option value="so">Somali</option>
+                        <option value="sw">Swahili</option>
+                        <option value="th">Thai</option>
+                        <option value="tr">Turkish</option>
+                        <option value="uk">Ukrainian</option>
+                        <option value="ur">Urdu</option>
+                        <option value="vi">Vietnamese</option>
+                        </select>
+                </div>
+            </div>
+
+            <div class="mt-6">
+                <label for="sourceText" class="block text-sm font-medium text-gray-700 mb-2">Enter Text:</label>
+                <textarea id="sourceText" rows="6" class="shadow-sm focus:ring-indigo-500 focus:border-indigo-500 mt-1 block w-full sm:text-sm border border-gray-300 rounded-md p-3" placeholder="Type or paste your text here..."></textarea>
+            </div>
+
+            <div class="mt-6 text-center">
+                <button id="translateButton" class="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 transition duration-150 ease-in-out transform hover:scale-105">
+                    Translate
+                </button>
+            </div>
+
+            <div class="mt-6">
+                <label for="translatedText" class="block text-sm font-medium text-gray-700 mb-2">Translated Text:</label>
+                <textarea id="translatedText" rows="6" class="shadow-sm mt-1 block w-full sm:text-sm border border-gray-300 rounded-md p-3 bg-gray-50 cursor-not-allowed" readonly placeholder="Your translated text will appear here..."></textarea>
+            </div>
+
+            <div class="mt-6 p-4 bg-yellow-50 border border-yellow-200 text-yellow-800 rounded-md text-sm">
+                <strong>Note:</strong> This tool uses an unofficial Google Translate endpoint. While functional, it is not supported by Google and may be unstable or stop working without notice. For production use, consider official API solutions.
+            </div>
+
+        </section>
+
+        <section class="w-full max-w-4xl bg-white p-6 md:p-8 rounded-2xl shadow-xl border border-gray-200 mt-8">
+            <h2 class="text-2xl font-semibold mb-6 text-center text-indigo-600">Our Tool Features</h2>
+            <div class="prose max-w-none text-gray-700">
+                <p>Welcome to the **AI Translation Tool**, your go-to solution for quick and accurate language translation. Our platform is designed with simplicity and efficiency in mind, ensuring a seamless experience for all your translation needs.</p>
+                <ul class="list-disc list-inside space-y-2 mt-4">
+                    <li><strong>Automatic Language Detection:</strong> No need to guess the source language! Our tool intelligently detects the language of your input text, saving you time and effort.</li>
+                    <li><strong>Extensive Language Support:</strong> Translate between a vast array of languages, including popular choices like English, French, Spanish, German, and a comprehensive selection of Indian languages such as Hindi, Odia, Telugu, Tamil, Gujarati, and Sanskrit. We also support many other global languages.</li>
+                    <li><strong>Sleek & User-Friendly Interface:</strong> Enjoy a clean, modern, and intuitive design that makes translation effortless. Our responsive layout ensures a great experience on any device, from desktops to mobile phones.</li>
+                    <li><strong>Instant Translation:</strong> Get your translations in real-time, allowing for quick communication and understanding across language barriers.</li>
+                    <li><strong>Privacy-Focused:</strong> We prioritize your privacy. Your entered text is processed securely to deliver accurate translations without compromising your data.</li>
+                </ul>
+                <p class="mt-4">Whether you're a student, a professional, or just someone looking to understand a foreign text, the AI Translation Tool is here to bridge the language gap for you.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-gray-800 text-white py-6 px-4 md:px-8 mt-8 rounded-t-xl">
+        <div class="container mx-auto text-center text-sm">
+            &copy; 2024 AI Translation Tool. All rights reserved.
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
